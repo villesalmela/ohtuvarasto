@@ -2,6 +2,7 @@ from varasto import Varasto
 
 
 
+# pylint: disable=R0915
 def main():
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
